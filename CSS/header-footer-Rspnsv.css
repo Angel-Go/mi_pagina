@@ -1,0 +1,93 @@
+/*-------------------------------------H E A D E R*/
+
+header {
+    height: 70px;
+    width: 100%;
+    background: rgb(24, 24, 24);
+    border-bottom: 3px solid rgb(67, 127, 255);
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
+div.ctnd-LogoHeader,
+div.ctnd-MenuHeader {
+    height: 99%;
+    width: 50%;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.ctnd-LogoHeader>strong {
+    height: 80%;
+    width: 100%;
+    margin: 8px 14px;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #F9A914;
+}
+
+@media screen and (max-width: 499px){
+    div.ctnd-LogoHeader {
+    width: 70%;
+    }
+    div.ctnd-MenuHeader{
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 1024px){
+    div.ctnd-LogoHeader {
+    width: 40%;
+    }
+    div.ctnd-MenuHeader{
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1400px){
+    div.ctnd-LogoHeader {
+    width: 40%;
+    }
+    div.ctnd-MenuHeader{
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1401px){
+    div.ctnd-LogoHeader {
+    width: 40%;
+    }
+    div.ctnd-MenuHeader{
+        width: 60%;
+    }
+}
+
+
+/*-------------------------------------F O O D E R*/
+
+footer {
+    height: 50px;
+    width: 100%;
+    background: rgb(46, 46, 46);
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+div.ctnd-DerechosFooter {
+    height: 95%;
+    width: 90%;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.ctnd-DerechosFooter>p {
+    font-size: 0.9em;
+    font-family: sans-serif;
+    color: white;
+}
