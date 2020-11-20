@@ -1,0 +1,575 @@
+/*:::::::::::::::::::: SECCION - T I T U L O - P A G I N A*/
+
+.tituloPagina{
+    height: 210px;
+}
+
+.ctnd-tituloPagina{
+    height: 80%;
+    width: 40%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctnd-tituloPagina>h2,
+.ctnd-tituloPagina>b{
+    margin: 5px auto;
+    color: rgb(2, 167, 131);
+}
+
+.ctnd-tituloPagina>h3{
+    margin: 0.8em auto 1.2em;
+    color: rgb(90, 90, 90);
+}
+
+.ctnd-tituloPagina>b{
+    font-size: 1.2em;
+}
+
+/*:::::::::::::::::: SECCION - P L A N E S - P O R T A F O L I O*/
+
+.Planes-Portafolio{
+    height: 300px;
+}
+
+.ctnd-planesPortafolio{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ctnd-Planes{
+    height: 99%;
+    width: 74%;
+}
+
+.ctnd-Portafolio{
+    height: 99%;
+    width: 25%;
+}
+
+.ctnd-descripcionPlan,
+.ctnd-opcionesPlan{
+    height: 98%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5px;
+    box-sizing: border-box;
+}
+
+.ctnd-descripcionPlan{
+    width: 37%;
+    flex-direction: column;
+    margin: 0px 5px;
+    border-radius: 6px;
+    border: 1px solid rgb(145, 145, 145);
+}
+
+.ctnd-opcionesPlan{
+    width: 63%;
+}
+
+.opcionPlan{
+    height: 100%;
+    width: 33.3%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5px;
+    box-sizing: border-box;
+}
+
+.descripcionPlan-titulo,
+.descripcionPlan-descripcion,
+.opcionPlan-titulo,
+.opcionPlan-precio,
+.opcionPlan-descripcion{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.descripcionPlan-titulo{
+    height: 25%;
+    color: rgb(2, 167, 131);
+}
+
+.descripcionPlan-descripcion{
+    height: 75%;
+}
+
+.opcionPlan-titulo{
+    height: 20%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    background-color: rgb(2, 167, 131);
+    color: white;
+}
+
+.recomendado{
+    background-color: #F9A914;
+}
+
+.opcionPlan-precio{
+    height: 20%;
+    background-color: rgb(167, 240, 224);
+}
+
+.opcionPlan-descripcion{
+    height: 60%;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background-color: rgb(221, 221, 221);
+}
+
+.descripcionPlan-titulo>h4{
+    font-size: 1.4em;
+}
+
+.descripcionPlan-descripcion>ul{
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-left: 0.6em;
+    margin-right: 0.6em; 
+    padding-inline-start: 22px;
+}
+
+.descripcionPlan-descripcion li{
+    list-style-image: url(../Pictures/flecha-correcta.png);
+    padding-bottom: 6px;
+    margin-bottom: 6px;
+}
+
+.opcionPlan-descripcion>p{
+    padding: 0px 10px;
+    text-align: center;
+}
+
+/* P O R T A F O L I O*/
+
+.ctnd-itemsPortafolio{
+    height: 98%;
+    width: 99%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.itemsPortafolio-titulo,
+.itemPortafolio{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.itemsPortafolio-titulo{
+    height: 30%;
+    justify-content: space-between;
+}
+
+.itemPortafolio{
+    height: 70%;
+    justify-content: center;
+}
+
+.itemsPortafolio-titulo>h4{
+    font-size: 1.8em;
+    letter-spacing: 2px;
+    color: rgb(99, 99, 99);
+}
+
+.itemsPortafolio-titulo>p{
+    margin: 10px auto;
+    font-size: 1.2em;
+    color:rgb(67, 127, 255);
+}
+
+.itemPortafolio a{
+    text-decoration: none;
+    border-radius: 4px;
+    background: rgb(99, 99, 99);
+    color: white;
+}
+
+.itemPortafolio a:hover{
+    transition: 350ms all;
+    background: rgb(24, 24, 24);
+    color: rgb(250, 25, 25);
+}
+
+.itemPortafolio strong {
+    height: 35px;
+    width: 160px;
+    margin: 5px 6px;
+    padding: 0px 10px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 4px rgb(247, 247, 247);
+    border: 2px solid rgb(247, 247, 247);
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+}
+
+@media screen and (max-width: 499px){
+    .tituloPagina{
+        height: 180px;
+    }
+    .ctnd-tituloPagina{
+        height: 90%;
+        width: 98%;
+    }
+    .ctnd-tituloPagina>h2{
+        font-size: 3em;
+    }
+    .Planes-Portafolio{
+        height: 1500px;
+    }
+    .ctnd-planesPortafolio{
+        height: 100%;
+        flex-direction: column;
+    }
+    .ctnd-Planes{
+        height: 76%;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1px solid rgb(145, 145, 145);
+    }
+    .ctnd-Portafolio{
+        height: 22%;
+        width: 100%;
+        border-top: 1px solid rgb(145, 145, 145);
+    }
+
+    .ctnd-descripcionPlan,
+    .ctnd-opcionesPlan{
+        width: 99%;
+        flex-direction: column;
+    }
+    .ctnd-descripcionPlan{
+        height: 28%;
+        border: none;
+    }
+    .ctnd-opcionesPlan{
+        height: 69%;
+    }
+    .opcionPlan{
+        height: 30%;
+        width: 100%;
+    }
+    .descripcionPlan-descripcion{
+        width: 95%;
+    }
+    .opcionPlan-titulo{
+        height: 28%;
+    }
+    .opcionPlan-precio{
+        height: 20%;
+    }
+    .opcionPlan-descripcion{
+        height: 52%;
+    }
+    .descripcionPlan-titulo>h4{
+        font-size: 1.8em;
+    }
+    .descripcionPlan-descripcion li{
+        font-size: 1.2em;
+    }
+    .opcionPlan-precio>b{
+        font-size: 1.2em;
+    }
+    .opcionPlan-descripcion>p{
+        font-size: 1.1em;
+    }
+
+    .ctnd-itemsPortafolio{
+        justify-content: space-around;
+    }
+    .itemsPortafolio-titulo{
+        height: 30%;
+    }
+    .itemPortafolio{
+        height: 50%;
+    }
+    .itemsPortafolio-titulo>h4{
+        font-size: 2em;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 699px){
+    .tituloPagina{
+        height: 180px;
+    }
+    .ctnd-tituloPagina{
+        height: 90%;
+        width: 98%;
+    }
+    .ctnd-tituloPagina>h2{
+        font-size: 3em;
+    }
+    .Planes-Portafolio{
+        height: 1400px;
+    }
+    .ctnd-planesPortafolio{
+        height: 100%;
+        flex-direction: column;
+    }
+    .ctnd-Planes{
+        height: 76%;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1px solid rgb(145, 145, 145);
+    }
+    .ctnd-Portafolio{
+        height: 22%;
+        width: 100%;
+        border-top: 1px solid rgb(145, 145, 145);
+    }
+
+    .ctnd-descripcionPlan,
+    .ctnd-opcionesPlan{
+        width: 99%;
+        flex-direction: column;
+    }
+    .ctnd-descripcionPlan{
+        height: 28%;
+        border: none;
+    }
+    .ctnd-opcionesPlan{
+        height: 69%;
+    }
+    .opcionPlan{
+        height: 30%;
+        width: 100%;
+    }
+    .descripcionPlan-descripcion{
+        width: 95%;
+    }
+    .opcionPlan-titulo{
+        height: 28%;
+    }
+    .opcionPlan-precio{
+        height: 20%;
+    }
+    .opcionPlan-descripcion{
+        height: 52%;
+    }
+    .descripcionPlan-titulo>h4{
+        font-size: 1.8em;
+    }
+    .descripcionPlan-descripcion li{
+        font-size: 1.2em;
+    }
+    .opcionPlan-precio>b{
+        font-size: 1.2em;
+    }
+    .opcionPlan-descripcion>p{
+        font-size: 1.1em;
+    }
+
+    .ctnd-itemsPortafolio{
+        justify-content: space-around;
+    }
+    .itemsPortafolio-titulo{
+        height: 30%;
+    }
+    .itemPortafolio{
+        height: 50%;
+    }
+    .itemsPortafolio-titulo>h4{
+        font-size: 2em;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 940px){
+    .tituloPagina{
+        height: 180px;
+    }
+    .ctnd-tituloPagina{
+        height: 90%;
+        width: 98%;
+    }
+    .ctnd-tituloPagina>h2{
+        font-size: 3em;
+    }
+    .Planes-Portafolio{
+        height: 900px;
+    }
+    .ctnd-planesPortafolio{
+        height: 100%;
+        flex-direction: column;
+    }
+    .ctnd-Planes{
+        height: 66%;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1px solid rgb(145, 145, 145);
+    }
+    .ctnd-Portafolio{
+        height: 30%;
+        width: 100%;
+        border-top: 1px solid rgb(145, 145, 145);
+    }
+
+    .ctnd-descripcionPlan{
+        height: 40%;
+        width: 99%;
+        flex-direction: column;
+        align-items: flex-start;
+        border: none;
+    }
+    .ctnd-opcionesPlan{
+        height: 56%;
+        width: 99%;
+        flex-direction: row;
+    }
+    .opcionPlan{
+        height: 90%;
+        width: 30%;
+    }
+    .descripcionPlan-titulo,
+    .descripcionPlan-descripcion{
+        width: 90%;
+        justify-content: flex-start;
+    }
+    .opcionPlan-titulo{
+        height: 28%;
+    }
+    .opcionPlan-precio{
+        height: 20%;
+    }
+    .opcionPlan-descripcion{
+        height: 52%;
+    }
+    .descripcionPlan-titulo>h4{
+        margin: 10px 5px;
+        font-size: 1.8em;
+        text-align: left;
+    }
+    .descripcionPlan-descripcion li{
+        font-size: 1.2em;
+    }
+    .opcionPlan-precio>b{
+        font-size: 1.2em;
+    }
+    .opcionPlan-descripcion>p{
+        font-size: 1.1em;
+    }
+
+    .ctnd-itemsPortafolio{
+        justify-content: space-around;
+    }
+    .itemsPortafolio-titulo{
+        height: 30%;
+    }
+    .itemPortafolio{
+        height: 50%;
+    }
+    .itemsPortafolio-titulo>h4{
+        font-size: 2em;
+    }
+}
+
+@media screen and (min-width: 941px) and (max-width: 1024px){
+    .tituloPagina{
+        height: 180px;
+    }
+    .ctnd-tituloPagina{
+        height: 90%;
+        width: 98%;
+    }
+    .ctnd-tituloPagina>h2{
+        font-size: 3em;
+    }
+    .Planes-Portafolio{
+        height: 900px;
+    }
+    .ctnd-planesPortafolio{
+        height: 100%;
+        flex-direction: column;
+    }
+    .ctnd-Planes{
+        height: 66%;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1px solid rgb(145, 145, 145);
+    }
+    .ctnd-Portafolio{
+        height: 30%;
+        width: 100%;
+        border-top: 1px solid rgb(145, 145, 145);
+    }
+
+    .ctnd-descripcionPlan{
+        height: 40%;
+        width: 99%;
+        flex-direction: column;
+        align-items: flex-start;
+        border: none;
+    }
+    .ctnd-opcionesPlan{
+        height: 56%;
+        width: 99%;
+        flex-direction: row;
+    }
+    .opcionPlan{
+        height: 90%;
+        width: 28%;
+    }
+    .descripcionPlan-titulo,
+    .descripcionPlan-descripcion{
+        width: 90%;
+        justify-content: flex-start;
+    }
+    .opcionPlan-titulo{
+        height: 28%;
+    }
+    .opcionPlan-precio{
+        height: 20%;
+    }
+    .opcionPlan-descripcion{
+        height: 52%;
+    }
+    .descripcionPlan-titulo>h4{
+        margin: 10px 5px;
+        font-size: 1.8em;
+        text-align: left;
+    }
+    .descripcionPlan-descripcion li{
+        font-size: 1.2em;
+    }
+    .opcionPlan-precio>b{
+        font-size: 1.2em;
+    }
+    .opcionPlan-descripcion>p{
+        font-size: 1.1em;
+    }
+
+    .ctnd-itemsPortafolio{
+        justify-content: space-around;
+    }
+    .itemsPortafolio-titulo{
+        height: 30%;
+    }
+    .itemPortafolio{
+        height: 50%;
+    }
+    .itemsPortafolio-titulo>h4{
+        font-size: 2em;
+    }
+}
+
+@media screen and (min-width: 1400px) and (min-height: 650px) {
+    footer{
+        margin-top: 225px;
+    }
+}
