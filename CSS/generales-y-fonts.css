@@ -22,6 +22,7 @@ h3{
 
 h4{
     font-size: 1.7em;
+    margin: 10px auto;
 }
 
 p{
@@ -52,5 +53,18 @@ section {
 
 section>div {
     height: 98%;
-    width: 98%;
+    width: 100%;
+}
+
+@media screen and (min-width: 1600px){
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    section{
+        max-width: 1600px;
+    }
 }
