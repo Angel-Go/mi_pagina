@@ -1,4 +1,4 @@
-.sectTres-AcercaDe{
+.sect-AcercaDe{
     background-image: url(../Pictures/hello.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -75,6 +75,7 @@
 }
 
 .ctnd-descripcion>p{
+    padding: 0 10px;
     font-size: 1.2em;
 }
 
@@ -194,7 +195,7 @@
 }
 
 @media screen and (max-width: 499px){
-    .sectTres-AcercaDe{
+    .sect-AcercaDe{
         height: 1300px;
     }
     .ctnd-AcercaDe{
@@ -236,7 +237,7 @@
 }
 
 @media screen and (min-width: 500px) and (max-width: 699px){
-    .sectTres-AcercaDe{
+    .sect-AcercaDe{
         height: 1300px;
     }
     .ctnd-AcercaDe{
@@ -281,14 +282,10 @@
         font-size: 3em;
     }
     .ctnd-foto>img{
-        width: 230px;
-        height: 230px;
+        width: 200px;
+        height: 200px;
     }
     .ctnd-descripcion>p{
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
-}
-
-@media screen and (min-width: 1401px){
-
 }
