@@ -1,4 +1,4 @@
-.sectDos-Servicios{
+.sect-Servicios{
     height: 620px;
     background-color: rgb(235, 235, 235);
 }
@@ -181,13 +181,14 @@
     box-sizing: border-box;
 }
 
-.flip-card-back>button{
-    width: 135px;
+.flip-card-back>a{
+    width: 180px;
     height: 30px;
     justify-content: center;
     align-items: center;
     margin: 10px 5px;
     font-size: 0.9em;
+    text-decoration: none;
     text-align: center;
     border-radius: 20px;
     background: rgb(245, 245, 245);
@@ -236,7 +237,7 @@
 }
 
 @media screen and (max-width: 499px){
-    .sectDos-Servicios{
+    .sect-Servicios{
         height: 1200px;
     }
     .ctnd-Servicios{
@@ -276,7 +277,7 @@
 }
 
 @media screen and (min-width: 500px) and (max-width: 699px){
-    .sectDos-Servicios{
+    .sect-Servicios{
         height: 1200px;
     }
     .ctnd-Servicios{
@@ -314,7 +315,7 @@
     }
 }
 
-@media screen and (min-width: 700px) and (max-width: 1020px){
+@media screen and (min-width: 700px) and (max-width: 1024px){
     /*T I T U L O - y - S U B T I T U L O*/
     .ctnd-TituloServicios{
         height: 16%;
@@ -338,8 +339,8 @@
     }
 }
 
-@media screen and (min-width: 1401px){
-    .sectDos-Servicios{
+@media screen and (min-width: 1600px){
+    .sect-Servicios{
         height: 650px;
     }
     /*T I T U L O - y - S U B T I T U L O*/
