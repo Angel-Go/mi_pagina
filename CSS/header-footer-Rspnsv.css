@@ -33,32 +33,44 @@ div.ctnd-MenuHeader {
 
 @media screen and (max-width: 499px){
     div.ctnd-LogoHeader {
-    width: 70%;
+    width: 80%;
     }
     div.ctnd-MenuHeader{
-        width: 30%;
+        width: 20%;
+    }
+
+    .ctnd-LogoHeader>strong{
+        font-size: 2em;
     }
 }
 
-@media screen and (min-width: 500px) and (max-width: 1024px){
+@media screen and (min-width: 500px) and (max-width: 749px){
+    div.ctnd-LogoHeader {
+    width: 80%;
+    }
+    div.ctnd-MenuHeader{
+        width: 20%;
+    }
+
+    .ctnd-LogoHeader>strong{
+        font-size: 2em;
+    }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1024px){
     div.ctnd-LogoHeader {
     width: 40%;
     }
     div.ctnd-MenuHeader{
         width: 60%;
     }
-}
 
-@media screen and (min-width: 1025px) and (max-width: 1400px){
-    div.ctnd-LogoHeader {
-    width: 40%;
-    }
-    div.ctnd-MenuHeader{
-        width: 60%;
+    .ctnd-LogoHeader>strong{
+        font-size: 2em;
     }
 }
 
-@media screen and (min-width: 1401px){
+@media screen and (min-width: 1025px){
     div.ctnd-LogoHeader {
     width: 40%;
     }
