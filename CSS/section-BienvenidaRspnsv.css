@@ -1,6 +1,6 @@
 /*::::::::::::::::::::::::::: S E C C I O N - B I E N V E N I D A */
 
-.sectUno-Bienvenida{
+.sect-Bienvenida{
     background-image: url(../Pictures/fondoBienvenida-dark.jpg);
     background-position: center top;
     background-repeat: no-repeat;
@@ -105,7 +105,7 @@
 }
 
 @media screen and (max-width: 499px){
-    .sectUno-Bienvenida{
+    .sect-Bienvenida{
         height: 465px;
     }
 
@@ -171,8 +171,8 @@
 
 }
 
-@media screen and (min-width: 1401px){
-    .sectUno-Bienvenida{
+@media screen and (min-width: 1600px){
+    .sect-Bienvenida{
         height: 650px;
     }
     .ctnd-TituloBienvenida>h1{
