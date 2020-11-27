@@ -321,7 +321,7 @@ li.medida{
     }
     .opcionPlan{
         height: 90%;
-        width: 30%;
+        width: 33%;
     }
     .descripcionPlan-titulo,
     .descripcionPlan-descripcion{
@@ -345,9 +345,12 @@ li.medida{
     .descripcionPlan-descripcion li{
         font-size: 1.2em;
     }
+    .opcionPlan-precio>p,
     .opcionPlan-precio>b{
-        font-size: 1.2em;
+        padding: 0px 8px;
     }
+    .opcionPlan-precio>b,
+    .opcionPlan-precio>p,
     .opcionPlan-descripcion>p{
         font-size: 1.1em;
     }
@@ -390,7 +393,7 @@ li.medida{
     }
     .opcionPlan{
         height: 90%;
-        width: 28%;
+        width: 30%;
     }
     .descripcionPlan-titulo,
     .descripcionPlan-descripcion{
@@ -414,9 +417,8 @@ li.medida{
     .descripcionPlan-descripcion li{
         font-size: 1.2em;
     }
-    .opcionPlan-precio>b{
-        font-size: 1.2em;
-    }
+    .opcionPlan-precio>b,
+    .opcionPlan-precio>p,
     .opcionPlan-descripcion>p{
         font-size: 1.1em;
     }
