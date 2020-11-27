@@ -1,0 +1,157 @@
+.Portafolio{
+    height: 250px;
+    margin-top: 20px;
+}
+
+.ctnd-Portafolio{
+    height: 99%;
+    width: 90%;
+    max-width: 1320px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ctnd-itemsPortafolio{
+    height: 98%;
+    width: 99%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.itemsPortafolio-titulo,
+.itemPortafolio{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.itemsPortafolio-titulo{
+    height: 30%;
+    justify-content: space-between;
+}
+
+.itemPortafolio{
+    height: 70%;
+    justify-content: center;
+}
+
+.itemsPortafolio-titulo>h4{
+    font-size: 1.8em;
+    letter-spacing: 2px;
+    color: rgb(99, 99, 99);
+}
+
+.itemsPortafolio-titulo>p{
+    margin: 10px auto;
+    font-size: 1.2em;
+    color:rgb(67, 127, 255);
+}
+
+.itemPortafolio a{
+    text-decoration: none;
+    border-radius: 4px;
+    background: rgb(99, 99, 99);
+    color: white;
+}
+
+.itemPortafolio a:hover{
+    transition: 350ms all;
+    background: rgb(24, 24, 24);
+    color: rgb(250, 25, 25);
+}
+
+.itemPortafolio strong {
+    height: 35px;
+    width: 160px;
+    margin: 5px 6px;
+    padding: 0px 10px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 4px rgb(247, 247, 247);
+    border: 2px solid rgb(247, 247, 247);
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+}
+
+@media screen and (max-width: 499px){
+    /*::::::::::::::: SECCION - P O R T A F O L I O*/
+    .ctnd-Portafolio{
+        width: 100%;
+        border-top: 1px solid rgb(145, 145, 145);
+    }
+    .ctnd-itemsPortafolio{
+        justify-content: space-around;
+    }
+    .itemsPortafolio-titulo{
+        height: 30%;
+    }
+    .itemPortafolio{
+        height: 50%;
+    }
+    .itemsPortafolio-titulo>h4{
+        font-size: 2em;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 699px){
+    /*::::::::::::::: SECCION - P O R T A F O L I O*/
+    .ctnd-Portafolio{
+        width: 100%;
+        border-top: 1px solid rgb(145, 145, 145);
+    }
+    .ctnd-itemsPortafolio{
+        justify-content: space-around;
+    }
+    .itemsPortafolio-titulo{
+        height: 30%;
+    }
+    .itemPortafolio{
+        height: 50%;
+    }
+    .itemsPortafolio-titulo>h4{
+        font-size: 2em;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 940px){
+    /*::::::::::::::: SECCION - P O R T A F O L I O*/
+    .ctnd-Portafolio{
+        width: 100%;
+        border-top: 1px solid rgb(145, 145, 145);
+    }
+    .ctnd-itemsPortafolio{
+        justify-content: space-around;
+    }
+    .itemsPortafolio-titulo{
+        height: 30%;
+    }
+    .itemPortafolio{
+        height: 50%;
+    }
+    .itemsPortafolio-titulo>h4{
+        font-size: 2em;
+    }
+}
+
+@media screen and (min-width: 941px) and (max-width: 1024px){
+    /*::::::::::::::: SECCION - P O R T A F O L I O*/
+    .ctnd-Portafolio{
+        width: 100%;
+        border-top: 1px solid rgb(145, 145, 145);
+    }
+    .ctnd-itemsPortafolio{
+        justify-content: space-around;
+    }
+    .itemsPortafolio-titulo{
+        height: 30%;
+    }
+    .itemPortafolio{
+        height: 50%;
+    }
+    .itemsPortafolio-titulo>h4{
+        font-size: 2em;
+    }
+}
