@@ -1,10 +1,11 @@
+/*
 .sect-AcercaDe{
     background-image: url(../Pictures/hello.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+*/
 .ctnd-AcercaDe{
     justify-content: space-between;
     align-items: center;
@@ -41,7 +42,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background: rgba(255, 255, 255, 0.7);
+
 }
 
 .ctnd-tituloPresentacion>h2{
@@ -51,6 +52,7 @@
     letter-spacing: 0.5px;
     word-spacing: 1.5px;
     text-align: center;
+    color: rgb(82, 141, 252);
 }
 
 .ctnd-foto{
@@ -77,6 +79,7 @@
 .ctnd-descripcion>p{
     padding: 0 10px;
     font-size: 1.2em;
+    text-align: justify;
 }
 
 /*:::::::: F OR M U L A R I O - D E - C O N T A C T O*/
@@ -196,7 +199,7 @@
 
 @media screen and (max-width: 499px){
     .sect-AcercaDe{
-        height: 1300px;
+        height: 1360px;
     }
     .ctnd-AcercaDe{
         flex-direction: column;
@@ -206,14 +209,14 @@
         width: 99%;
     }
     .ctnd-tituloPresentacion{
-        height: 12%;
+        height: 14%;
     }
     .ctnd-tituloPresentacion>h2{
         font-size: 2.1em;
         margin: 10px 2px;
     }
     .ctnd-contenidoPresentacion{
-        height: 88%;
+        height: 86%;
         flex-direction: column;
         background: none;
     }
@@ -232,13 +235,12 @@
     }
     .ctnd-descripcion>p{
         font-size: 1.2em;
-        text-align: center;
     }
 }
 
 @media screen and (min-width: 500px) and (max-width: 699px){
     .sect-AcercaDe{
-        height: 1300px;
+        height: 1360px;
     }
     .ctnd-AcercaDe{
         flex-direction: column;
@@ -248,14 +250,14 @@
         width: 99%;
     }
     .ctnd-tituloPresentacion{
-        height: 12%;
+        height: 14%;
     }
     .ctnd-tituloPresentacion>h2{
         font-size: 3em;
         margin: 10px 2px;
     }
     .ctnd-contenidoPresentacion{
-        height: 88%;
+        height: 86%;
         flex-direction: column;
         background: none;
     }
@@ -273,7 +275,6 @@
     }
     .ctnd-descripcion>p{
         font-size: 1.2em;
-        text-align: center;
     }
 }
 
