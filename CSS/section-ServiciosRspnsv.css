@@ -1,5 +1,5 @@
 .sect-Servicios{
-    height: 620px;
+    height: 650px;
     background-color: rgb(235, 235, 235);
 }
 
@@ -22,12 +22,13 @@
 }
 
 .ctnd-FraseServicios{
-    height: 8%;
+    height: 12%;
     justify-content: center;
+    padding-bottom: 20px;
 }
 
 .ctnd-DifServicios{
-    height: 74%;
+    height: 70%;
     flex-direction: row;
     justify-content: space-between;
 }
@@ -237,20 +238,20 @@
 
 @media screen and (max-width: 499px){
     .sect-Servicios{
-        height: 1200px;
+        height: 1250px;
     }
     .ctnd-Servicios{
         height: 99%;
     }
     /*T I T U L O - y - S U B T I T U L O*/
     .ctnd-TituloServicios{
-        height: 7%;
+        height: 8%;
     }
     .ctnd-FraseServicios{
-        height: 5%;
+        height: 6%;
     }
     .ctnd-DifServicios{
-        height: 88%;
+        height: 86%;
         flex-direction: column;
         justify-content: space-between;
 
@@ -277,20 +278,20 @@
 
 @media screen and (min-width: 500px) and (max-width: 699px){
     .sect-Servicios{
-        height: 1200px;
+        height: 1240px;
     }
     .ctnd-Servicios{
         height: 99%;
     }
     /*T I T U L O - y - S U B T I T U L O*/
     .ctnd-TituloServicios{
-        height: 9%;
+        height: 8%;
     }
     .ctnd-FraseServicios{
         height: 7%;
     }
     .ctnd-DifServicios{
-        height: 84%;
+        height: 85%;
         flex-direction: column;
         justify-content: space-between;
     }
