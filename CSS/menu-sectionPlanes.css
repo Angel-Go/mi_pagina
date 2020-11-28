@@ -27,10 +27,10 @@
     font-size: 1.2em;
 }
 
-/*:::::::::::::::::: SECCION - P L A N E S - P O R T A F O L I O*/
+/*:::::::::::::::::: SECCION - P L A N E S*/
 
 .Planes{
-    height: 380px;
+    height: 450px;
     margin-top: 20px;
 }
 
@@ -113,6 +113,7 @@
 
 .opcionPlan-descripcion{
     height: 35%;
+    flex-direction: column;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
     background-color: rgb(158, 228, 213);
@@ -150,12 +151,13 @@ li.medida{
 
 .opcionPlan-descripcion>p{
     padding: 0px 10px;
+    margin: 8px 0px;
     text-align: center;
 }
 
 @media screen and (max-width: 499px){
     .tituloPagina{
-        height: 180px;
+        height: 220px;
     }
     .ctnd-tituloPagina{
         height: 90%;
@@ -197,13 +199,13 @@ li.medida{
         width: 95%;
     }
     .opcionPlan-titulo{
-        height: 28%;
-    }
-    .opcionPlan-precio{
         height: 20%;
     }
+    .opcionPlan-precio{
+        height: 15%;
+    }
     .opcionPlan-descripcion{
-        height: 52%;
+        height: 35%;
     }
     .descripcionPlan-titulo>h4{
         font-size: 1.8em;
@@ -221,7 +223,7 @@ li.medida{
 
 @media screen and (min-width: 500px) and (max-width: 699px){
     .tituloPagina{
-        height: 180px;
+        height: 200px;
     }
     .ctnd-tituloPagina{
         height: 90%;
@@ -262,13 +264,13 @@ li.medida{
         width: 95%;
     }
     .opcionPlan-titulo{
-        height: 28%;
-    }
-    .opcionPlan-precio{
         height: 20%;
     }
+    .opcionPlan-precio{
+        height: 15%;
+    }
     .opcionPlan-descripcion{
-        height: 52%;
+        height: 35%;
     }
     .descripcionPlan-titulo>h4{
         font-size: 1.8em;
@@ -286,7 +288,7 @@ li.medida{
 
 @media screen and (min-width: 700px) and (max-width: 940px){
     .tituloPagina{
-        height: 180px;
+        height: 220px;
     }
     .ctnd-tituloPagina{
         height: 90%;
@@ -329,13 +331,13 @@ li.medida{
         justify-content: flex-start;
     }
     .opcionPlan-titulo{
-        height: 28%;
-    }
-    .opcionPlan-precio{
         height: 20%;
     }
+    .opcionPlan-precio{
+        height: 13%;
+    }
     .opcionPlan-descripcion{
-        height: 52%;
+        height: 41%;
     }
     .descripcionPlan-titulo>h4{
         margin: 10px 5px;
@@ -358,7 +360,7 @@ li.medida{
 
 @media screen and (min-width: 941px) and (max-width: 1024px){
     .tituloPagina{
-        height: 180px;
+        height: 200px;
     }
     .ctnd-tituloPagina{
         height: 90%;
@@ -401,13 +403,13 @@ li.medida{
         justify-content: flex-start;
     }
     .opcionPlan-titulo{
-        height: 28%;
-    }
-    .opcionPlan-precio{
         height: 20%;
     }
+    .opcionPlan-precio{
+        height: 14%;
+    }
     .opcionPlan-descripcion{
-        height: 52%;
+        height: 38%;
     }
     .descripcionPlan-titulo>h4{
         margin: 10px 5px;
