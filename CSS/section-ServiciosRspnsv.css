@@ -182,12 +182,11 @@
 }
 
 .flip-card-back>a{
-    width: 180px;
-    height: 30px;
+    width: 210px;
+    height: 40px;
     justify-content: center;
     align-items: center;
     margin: 10px 5px;
-    font-size: 0.9em;
     text-decoration: none;
     text-align: center;
     border-radius: 20px;
@@ -336,6 +335,10 @@
     /* S E R V I C I O S*/
     .flip-card-back>p{
         font-size: 1em;
+    }
+    .flip-card-back>a{
+        width: 200px;
+        height: 40px;
     }
 }
 
