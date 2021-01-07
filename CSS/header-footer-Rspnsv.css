@@ -1,10 +1,10 @@
 /*-------------------------------------H E A D E R*/
 
 header {
-    height: 85px;
+    height: 92px;
     width: 100%;
     background: rgb(26, 26, 26);
-    border-bottom: 2px solid rgb(67, 127, 255);
+    /*border-bottom: 2px solid rgb(67, 127, 255);*/
     flex-direction: row;
     align-items: center;
     justify-content: center;
