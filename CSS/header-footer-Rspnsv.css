@@ -36,9 +36,9 @@ div.ctnd-MenuHeader {
     div.ctnd-MenuHeader{
         width: 20%;
     }
-
-    .ctnd-LogoHeader>strong{
-        font-size: 2em;
+    
+    .ctnd-LogoHeader>img{
+        margin: 2px 6px;
     }
 }
 
@@ -50,8 +50,8 @@ div.ctnd-MenuHeader {
         width: 20%;
     }
 
-    .ctnd-LogoHeader>strong{
-        font-size: 2em;
+    .ctnd-LogoHeader>img{
+        margin: 2px 6px;
     }
 }
 
@@ -63,8 +63,8 @@ div.ctnd-MenuHeader {
         width: 60%;
     }
 
-    .ctnd-LogoHeader>strong{
-        font-size: 2em;
+    .ctnd-LogoHeader>img{
+        margin: 2px 6px;
     }
 }
 
