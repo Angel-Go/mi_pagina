@@ -1,7 +1,7 @@
 /*-------------------------------------H E A D E R*/
 
 header {
-    height: 92px;
+    height: 96px;
     width: 100%;
     background: #1A1A20;
     /*border-bottom: 2px solid rgb(67, 127, 255);*/
@@ -24,7 +24,7 @@ div.ctnd-MenuHeader {
 .ctnd-LogoHeader>img {
     height: 81.5px;
     width: 256.6px;
-    margin: 2px 14px;
+    margin: 2px 10px;
     justify-content: center;
     align-items: center;
 }
