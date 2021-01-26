@@ -152,7 +152,7 @@
 .azul{
     border-top: 8px solid rgb(67, 127, 255);
     border-bottom: 8px solid rgb(67, 127, 255);
-    background-image: url(/Pictures/pxls-tienda-4_edited.jpg);
+    background-image: url(../Pictures/pxls-tienda-4_edited.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -161,7 +161,7 @@
 .naranja{
     border-top: 8px solid #F9A914;
     border-bottom: 8px solid #F9A914;
-    background-image: url(/Pictures/pxls-menu-web-3_edited.jpg);
+    background-image: url(../Pictures/pxls-menu-web-3_edited.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -170,7 +170,7 @@
 .verde{
     border-top: 8px solid rgb(2, 167, 131);
     border-bottom: 8px solid rgb(2, 167, 131);
-    background-image: url(/Pictures/pxls-paginaw-2_edited.jpg);
+    background-image: url(../Pictures/pxls-paginaw-2_edited.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
