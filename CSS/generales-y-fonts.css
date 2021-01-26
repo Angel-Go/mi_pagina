@@ -57,7 +57,7 @@ section>div {
     width: 100%;
 }
 
-@media screen and (min-width: 1600px){
+@media screen and (min-width: 1600px) and (max-width: 1800px){
     body{
         display: flex;
         flex-direction: column;
@@ -66,8 +66,19 @@ section>div {
     }
 
     section{
-        max-width: 1650px;
-        padding-left: 8%;
-        padding-right: 8%;
+        max-width: 1800px;
+    }
+}
+
+@media screen and (min-width: 1801px){
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    section{
+        max-width: 1850px;
     }
 }
