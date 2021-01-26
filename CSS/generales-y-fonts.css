@@ -66,8 +66,8 @@ section>div {
     }
 
     section{
-        max-width: 1920px;
-        padding-left: 100px;
-        padding-right: 100px;
+        max-width: 1650px;
+        padding-left: 8%;
+        padding-right: 8%;
     }
 }
