@@ -19,7 +19,7 @@ div.ctnd-MenuHeader {
     width: 50%;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .ctnd-LogoHeader>img {
