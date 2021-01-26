@@ -6,7 +6,7 @@
 .ctnd-AcercaDe>div{
     height: 99%;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -227,6 +227,9 @@
     .ctnd-descripcion>p{
         font-size: 1.2em;
     }
+    .form-contacto>div{
+        width: 92%;
+    }
 }
 
 @media screen and (min-width: 500px) and (max-width: 699px){
@@ -238,7 +241,7 @@
     }
     .ctnd-AcercaDe>div{
         height: 50%;
-        width: 99%;
+        width: 95%;
     }
     .ctnd-tituloPresentacion{
         height: 14%;
@@ -266,6 +269,9 @@
     }
     .ctnd-descripcion>p{
         font-size: 1.2em;
+    }
+    .form-contacto>div{
+        width: 94%;
     }
 }
 
