@@ -103,6 +103,8 @@
     align-items: center;
     justify-content: space-between;
     border-radius: 4px;
+    padding-top: 14px;
+    padding-bottom: 14px;
     box-sizing: border-box;
     color: white;
     transform: rotateY(180deg);
@@ -150,8 +152,6 @@
 }
 
 .azul{
-    border-top: 8px solid rgb(67, 127, 255);
-    border-bottom: 8px solid rgb(67, 127, 255);
     background-image: url(../Pictures/pxls-tienda-4_edited.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -159,8 +159,6 @@
 }
 
 .naranja{
-    border-top: 8px solid #F9A914;
-    border-bottom: 8px solid #F9A914;
     background-image: url(../Pictures/pxls-menu-web-3_edited.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -168,8 +166,6 @@
 }
 
 .verde{
-    border-top: 8px solid rgb(2, 167, 131);
-    border-bottom: 8px solid rgb(2, 167, 131);
     background-image: url(../Pictures/pxls-paginaw-2_edited.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -202,11 +198,11 @@
     text-decoration: none;
     text-align: center;
     border-radius: 20px;
-    background: rgb(245, 245, 245);
+    background: black;
 }
 
 .btnBlue{
-    border: 2px solid rgb(67, 127, 255);
+    border: 1px solid rgb(67, 127, 255);
     color: rgb(67, 127, 255);
 }
 
@@ -220,7 +216,7 @@
 }
 
 .btnOrange{
-    border:  2px solid #F9A914;
+    border:  1px solid #F9A914;
     color: #F9A914;    
 }
 
@@ -234,7 +230,7 @@
 }
 
 .btnGreen{
-    border: 2px solid rgb(2, 167, 131);
+    border: 1px solid rgb(2, 167, 131);
     color: #0dc061;
 }
 
