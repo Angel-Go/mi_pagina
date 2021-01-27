@@ -132,9 +132,11 @@
     width: 135px;
     height: 28px;
     margin: 20px 5px 10px;
+    padding-bottom: 1px;
+    padding-top: 1px;
     font-size: 0.9em;
     color: grey;
-    line-height: 30px;
+    line-height: 28px;
     border: 1px solid grey;
     border-radius: 20px;
 }
