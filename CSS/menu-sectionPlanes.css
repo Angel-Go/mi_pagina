@@ -127,17 +127,6 @@ li.medida{
 }
 
 @media screen and (max-width: 499px){
-    .tituloPagina{
-        height: 220px;
-    }
-    .ctnd-tituloPagina{
-        height: 90%;
-        width: 98%;
-    }
-    .ctnd-tituloPagina>h2{
-        font-size: 3em;
-    }
-
     /*::::::::::::::: SECCION - P L A N E S*/
     .Planes{
         height: 1600px;
@@ -193,17 +182,6 @@ li.medida{
 }
 
 @media screen and (min-width: 500px) and (max-width: 699px){
-    .tituloPagina{
-        height: 200px;
-    }
-    .ctnd-tituloPagina{
-        height: 90%;
-        width: 98%;
-    }
-    .ctnd-tituloPagina>h2{
-        font-size: 3em;
-    }
-
     /*::::::::::::::: SECCION - P L A N E S*/
     .Planes{
         height: 1400px;
@@ -258,17 +236,6 @@ li.medida{
 }
 
 @media screen and (min-width: 700px) and (max-width: 940px){
-    .tituloPagina{
-        height: 220px;
-    }
-    .ctnd-tituloPagina{
-        height: 90%;
-        width: 98%;
-    }
-    .ctnd-tituloPagina>h2{
-        font-size: 3em;
-    }
-
     /*::::::::::::::: SECCION - P L A N E S*/
     .Planes{
         height: 720px;
@@ -330,17 +297,6 @@ li.medida{
 }
 
 @media screen and (min-width: 941px) and (max-width: 1024px){
-    .tituloPagina{
-        height: 200px;
-    }
-    .ctnd-tituloPagina{
-        height: 90%;
-        width: 98%;
-    }
-    .ctnd-tituloPagina>h2{
-        font-size: 3em;
-    }
-
     /*::::::::::::::: SECCION - P L A N E S*/
     .Planes{
         height: 800px;
