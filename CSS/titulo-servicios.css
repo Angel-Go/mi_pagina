@@ -1,7 +1,8 @@
 /*:::::::::::::::::::: SECCION - T I T U L O - P A G I N A*/
 
 .tituloPagina{
-    height: 150px;
+    height: 180px;
+    padding: 30px 0px 0px;
 }
 
 .ctnd-tituloPagina{
