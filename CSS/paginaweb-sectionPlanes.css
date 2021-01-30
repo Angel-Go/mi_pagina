@@ -1,0 +1,310 @@
+.ctnd-SitiosWeb{
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+/*
+.ctnd-sitios-introduccion{
+    display: none;
+    height: 0%;
+    width: 90%;
+}
+*/
+.ctnd-sitios-descripcion{
+    height: 100%;
+    width: 95%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ctnd-descripcion-caracteristicas,
+.ctnd-descripcion-planes{
+    height: 99%;
+    width: 48%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ctnd-caracteristicas-titulo{
+    height: 15%;
+    width: 98%;
+    color: rgb(2, 167, 131);;
+}
+
+.ctnd-caracteristicas-contenido{
+    height: 80%;
+    width: 98%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.ctnd-caracteristicas-contenido p{
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.pb{
+    font-weight: bold;
+}
+
+.ctnd-caracteristicas-contenido li{
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.ctnd-planes-espaciador{
+    height: 18%;
+    width: 98%;
+}
+
+.ctnd-planes-tamaños{
+    height: 31%;
+    width: 98%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ctnd-planes-incluye{
+    height: 46%;
+    width: 98%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid rgb(145, 145, 145);
+}
+
+.ctnd-plan{
+    height: 100%;
+    width: 48%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ctnd-plan-titulo,
+.ctnd-plan-contenido,
+.ctnd-plan-precio{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.ctnd-plan-titulo{
+    height: 30%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    background-color: rgb(2, 167, 131);
+    color: white;
+}
+
+.recomendado{
+    background-color: #F9A914;
+}
+
+.ctnd-plan-titulo>h5{
+    text-align: center;
+}
+
+.ctnd-plan-contenido{
+    height: 40%;
+    padding: 0px 10px;
+    background-color: rgb(221, 221, 221);
+    border-bottom: 1px solid white;
+    border-top: 1px solid white
+}
+
+.ctnd-plan-precio{
+    height: 30%;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background-color: rgb(158, 228, 213);
+}
+
+.ctnd-plan-contenido>p{
+    text-align: center;
+}
+
+.ctnd-incluye-titulo{
+    height: 20%;
+    width: 98%;
+}
+
+.ctnd-incluye-contenido{
+    height: 75%;
+    width: 98%;
+}
+
+.ctnd-incluye-contenido li{
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 320px){
+    .SitiosWeb{
+        height: 1350px;
+        padding-top: 15px;
+    }
+    .ctnd-sitios-descripcion{
+        flex-direction: column;
+    }
+    .ctnd-descripcion-caracteristicas{
+        height: 50%;
+        width: 98%;
+    }
+    .ctnd-descripcion-planes{
+        height: 45%;
+        width: 98%;
+    }
+    .ctnd-caracteristicas-titulo{
+        height: 10%;
+    }
+    .ctnd-caracteristicas-contenido{
+        height: 88%;
+    }
+    .ctnd-planes-espaciador{
+        display: none;
+    }
+    .ctnd-planes-tamaños{
+        height: 35%;
+    }
+    .ctnd-planes-incluye{
+        height: 60%;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 499px){
+    .SitiosWeb{
+        height: 1250px;
+        padding-top: 15px;
+    }
+    .ctnd-sitios-descripcion{
+        flex-direction: column;
+    }
+    .ctnd-descripcion-caracteristicas{
+        height: 55%;
+        width: 98%;
+    }
+    .ctnd-descripcion-planes{
+        height: 40%;
+        width: 98%;
+    }
+    .ctnd-caracteristicas-titulo{
+        height: 10%;
+    }
+    .ctnd-caracteristicas-contenido{
+        height: 88%;
+    }
+    .ctnd-planes-espaciador{
+        display: none;
+    }
+    .ctnd-planes-tamaños{
+        height: 40%;
+    }
+    .ctnd-planes-incluye{
+        height: 55%;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 699px){
+    .SitiosWeb{
+        height: 1200px;
+        padding-top: 15px;
+    }
+    .ctnd-sitios-descripcion{
+        flex-direction: column;
+    }
+    .ctnd-descripcion-caracteristicas{
+        height: 52%;
+        width: 98%;
+    }
+    .ctnd-descripcion-planes{
+        height: 43%;
+        width: 98%;
+    }
+    .ctnd-caracteristicas-titulo{
+        height: 10%;
+    }
+    .ctnd-caracteristicas-contenido{
+        height: 88%;
+    }
+    .ctnd-planes-espaciador{
+        display: none;
+    }
+    .ctnd-planes-tamaños{
+        height: 40%;
+    }
+    .ctnd-planes-incluye{
+        height: 55%;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 940px),
+screen and (orientation: portrait) and (min-width: 941px) and (max-width: 1024px){
+    .SitiosWeb{
+        height: 1000px;
+        padding-top: 15px;
+    }
+    .ctnd-sitios-introduccion,
+    .ctnd-sitios-descripcion{
+        width: 90%;
+    }
+    .ctnd-sitios-descripcion{
+        flex-direction: column;
+    }
+    .ctnd-descripcion-caracteristicas{
+        height: 50%;
+        width: 98%;
+    }
+    .ctnd-descripcion-planes{
+        height: 45%;
+        width: 98%;
+    }
+    .ctnd-caracteristicas-titulo{
+        height: 10%;
+    }
+    .ctnd-caracteristicas-contenido{
+        height: 85%;
+    }
+    .ctnd-planes-espaciador{
+        display: none;
+    }
+    .ctnd-planes-tamaños{
+        height: 40%;
+    }
+    .ctnd-planes-incluye{
+        height: 55%;
+    }
+}
+
+@media screen and (orientation: portrait) and (min-width: 941px) and (max-width: 1024px){
+    .ctnd-sitios-introduccion,
+    .ctnd-sitios-descripcion{
+        width: 80%;
+    }
+}
+/*
+@media screen and (min-width: 941px) and (max-width: 1024px){
+
+}
+*/
+@media screen and (min-width: 1600px){
+    .ctnd-descripcion-caracteristicas,
+    .ctnd-descripcion-planes{
+        height: 99%;
+        width: 45%;
+    }
+    .ctnd-planes-espaciador{
+        height: 20%;
+    }
+
+    .ctnd-planes-tamaños{
+        height: 30%;
+    }
+
+    .ctnd-planes-incluye{
+        height: 45%;
+    }
+}
