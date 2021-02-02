@@ -30,7 +30,7 @@
 }
 
 .ctnd-contenidoPresentacion{
-    height: 76%;
+    height: 78%;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -41,8 +41,6 @@
     width: 99%;
     height: 80%;
     margin: 20px 2px;
-    letter-spacing: 0.5px;
-    word-spacing: 1.5px;
     text-align: center;
     color: rgb(82, 141, 252);
 }
@@ -99,6 +97,7 @@
 .tituloForm>h3 {
     text-align: center;
     margin: 0px auto 3px;
+    font-size: 1.6em;
 }
 
 .tituloForm>img {
@@ -203,7 +202,7 @@
         height: 14%;
     }
     .ctnd-tituloPresentacion>h2{
-        font-size: 2.1em;
+        font-size: 2.2em;
         margin: 10px 2px;
     }
     .ctnd-contenidoPresentacion{
@@ -223,9 +222,6 @@
         width: 225px;
         height: 225px;
         border-radius: 50%;
-    }
-    .ctnd-descripcion>p{
-        font-size: 1.2em;
     }
     .form-contacto>div{
         width: 92%;
@@ -247,7 +243,7 @@
         height: 14%;
     }
     .ctnd-tituloPresentacion>h2{
-        font-size: 3em;
+        font-size: 2.4em;
         margin: 10px 2px;
     }
     .ctnd-contenidoPresentacion{
@@ -267,9 +263,6 @@
         width: 225px;
         height: 225px;
     }
-    .ctnd-descripcion>p{
-        font-size: 1.2em;
-    }
     .form-contacto>div{
         width: 94%;
     }
@@ -282,15 +275,22 @@
     .ctnd-FormContacto{
         width: 34%;
     }
+    .ctnd-tituloPresentacion{
+        height: 12%;
+    }
+    .ctnd-contenidoPresentacion{
+        height: 84%;
+    }
     .ctnd-tituloPresentacion>h2{
-        font-size: 3em;
+        height: 95%;
+        margin: 5px 2px;
+    }
+    .ctnd-descripcion>p{
+        font-size: 17px;
     }
     .ctnd-foto>img{
         width: 200px;
         height: 200px;
-    }
-    .ctnd-descripcion>p{
-        font-size: 1.1em;
     }
 }
 
@@ -301,10 +301,17 @@
     .ctnd-FormContacto{
         width: 34%;
     }
-    .ctnd-tituloPresentacion>h2{
-        font-size: 3em;
+    .ctnd-tituloPresentacion{
+        height: 12%;
     }
-    .ctnd-foto>img{
+    .ctnd-contenidoPresentacion{
+        height: 84%;
+    }
+    .ctnd-tituloPresentacion>h2{
+        height: 95%;
+        margin: 5px 2px;
+    }
+        .ctnd-foto>img{
         width: 215px;
         height: 215px;
     }
