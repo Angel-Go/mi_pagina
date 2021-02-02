@@ -25,6 +25,11 @@ h4{
     margin: 10px auto;
 }
 
+h5{
+    font-size: 1.3em;
+    margin: 6px auto;
+}
+
 p,li{
     font-family: 'Nunito Sans', sans-serif;
 }
