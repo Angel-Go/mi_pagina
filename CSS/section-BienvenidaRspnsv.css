@@ -118,7 +118,7 @@
     }
 
     .ctnd-FraseBienvenida>p{
-        font-size: 1.4em;
+        font-size: 1.5em;
     }
 
     .ctnd-Parrafo>p{
@@ -162,11 +162,11 @@
         width: 50%;
     }
     .ctnd-TituloBienvenida>h1{
-        font-size: 3.8em;
+        font-size: 3.2em;
     }
 
     .ctnd-FraseBienvenida>p{
-        font-size: 2em;
+        font-size: 1.8em;
     }
 
 }
