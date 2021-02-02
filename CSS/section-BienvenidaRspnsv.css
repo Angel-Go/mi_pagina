@@ -40,7 +40,7 @@
 }
 
 .ctnd-Parrafo{
-    width: 45%;
+    width: 40%;
     justify-content: center;
     align-items: center;
 }
@@ -60,7 +60,7 @@
 }
 
 .ctnd-Parrafo>p{
-    font-size: 1.6em;
+    font-size: 1.5em;
     text-align: center;
     color: white;
 }
@@ -77,7 +77,7 @@
     20%{opacity: 0.2;}
     30%{opacity: 0.4;}
     40%{opacity: 0.6;}
-    50%{font-size: 1.7em;}
+    50%{font-size: 1.6em;}
 }
 
 .ctnd-BotonContacto>a{
@@ -162,7 +162,7 @@
         width: 50%;
     }
     .ctnd-TituloBienvenida>h1{
-        font-size: 4.2em;
+        font-size: 3.8em;
     }
 
     .ctnd-FraseBienvenida>p{
@@ -176,7 +176,7 @@
         height: 650px;
     }
     .ctnd-TituloBienvenida>h1{
-        font-size: 4.8em;
+        font-size: 4.4em;
     }
 
     .ctnd-FraseBienvenida>p{
