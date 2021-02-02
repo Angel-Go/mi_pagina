@@ -129,6 +129,9 @@
 }
 
 @media screen and (min-width: 700px) and (max-width: 940px){
+    .sect-ActProp{
+        height: 550px;
+    }
     .ctnd-tituloActProp{
         height: 18%;
     }
@@ -147,6 +150,9 @@
 }
 
 @media screen and (min-width: 941px) and (max-width: 1024px){
+    .sect-ActProp{
+        height: 520px;
+    }
     .ctnd-tituloActProp{
         height: 18%;
     }
