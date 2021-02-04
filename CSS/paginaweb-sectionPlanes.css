@@ -73,7 +73,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0px;
+    padding: 10px 8px 10px 0px;
     border-radius: 6px;
     border: 1px solid rgb(145, 145, 145);
 }
@@ -178,6 +178,9 @@
     .ctnd-plan-contenido>ul{
         padding-inline-start: 25px;
     }
+    .ctnd-incluye-contenido>ul{
+        padding-inline-start: 30px;
+    }
 }
 
 @media screen and (min-width: 321px) and (max-width: 499px){
@@ -216,6 +219,9 @@
     }
     .ctnd-plan-contenido>ul{
         padding-inline-start: 25px;
+    }
+    .ctnd-incluye-contenido>ul{
+        padding-inline-start: 30px;
     }
 }
 
