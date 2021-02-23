@@ -1,5 +1,7 @@
+/*:::::::::::::::::::: SECCION - T I T U L O - P A G I N A*/
+
 .tituloPagina{
-    height: 170px;
+    height: 134px;
     padding: 25px 0px 0px;
 }
 
@@ -11,14 +13,19 @@
     align-items: center;
 }
 
-.ctnd-tituloPagina>h2,
+.ctnd-tituloPagina>h1,
 .ctnd-tituloPagina>b{
     margin: 5px auto;
     color: rgb(67, 127, 255);
 }
 
-.ctnd-tituloPagina>h3{
-    margin: 0.7em auto 1em;
+.ctnd-tituloPagina>h1{
+    font-size: 2.4em;
+}
+
+.ctnd-tituloPagina>h2{
+    font-size: 1.4em;
+    margin: 0.4em auto 0.7em;
     color: rgb(90, 90, 90);
 }
 
@@ -28,33 +35,30 @@
 
 @media screen and (max-width: 499px){
     .tituloPagina{
-        height: 150px;
+        height: 120px;
     }
     .ctnd-tituloPagina{
         height: 94%;
         width: 98%;
     }
-    .ctnd-tituloPagina>h2{
-        font-size: 2.6em;
+    .ctnd-tituloPagina>h1{
+        font-size: 2.2em;
     }
-    .ctnd-tituloPagina>h3{
+    .ctnd-tituloPagina>h2{
         font-size: 1.2em;
     }
 }
 
 @media screen and (min-width: 500px) and (max-width: 699px){
-    .tituloPagina{
-        height: 150px;
-    }
     .ctnd-tituloPagina{
         height: 94%;
         width: 98%;
     }
-    .ctnd-tituloPagina>h2{
-        font-size: 2.6em;
+    .ctnd-tituloPagina>h1{
+        font-size: 2.3em;
     }
-    .ctnd-tituloPagina>h3{
-        font-size: 1.2em;
+    .ctnd-tituloPagina>h2{
+        font-size: 1.3em;
     }
 }
 
@@ -64,9 +68,6 @@
         width: 98%;
     }
     .ctnd-tituloPagina>h2{
-        font-size: 2.8em;
-    }
-    .ctnd-tituloPagina>h3{
         font-size: 1.3em;
     }
 }
@@ -77,9 +78,15 @@
         width: 98%;
     }
     .ctnd-tituloPagina>h2{
-        font-size: 2.8em;
-    }
-    .ctnd-tituloPagina>h3{
         font-size: 1.3em;
+    }
+}
+
+@media screen and (min-width: 1600px){
+    .ctnd-tituloPagina>h1{
+        font-size: 2.6em;
+    }
+    .ctnd-tituloPagina>h2{
+        font-size: 1.4em;
     }
 }
