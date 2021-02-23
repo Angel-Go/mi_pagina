@@ -108,3 +108,9 @@ div.ctnd-DerechosFooter {
         margin-top: 30px;
     }
 }
+
+@media screen and (min-width: 1600px){
+     footer{
+        margin-top: 30px;
+    }
+}
