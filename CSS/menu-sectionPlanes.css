@@ -352,3 +352,9 @@ li.medida{
         font-size: 1.1em;
     }
 }
+
+@media screen and (min-width: 1600px){
+    .Planes{
+        margin-bottom: 80px;
+    }
+}
