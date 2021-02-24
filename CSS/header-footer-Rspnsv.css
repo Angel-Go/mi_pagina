@@ -30,6 +30,27 @@ div.ctnd-MenuHeader {
     align-items: center;
 }
 
+.ctnd-MenuHeader{
+    justify-content: flex-end;
+}
+
+.ctnd-btn-regresar{
+    height: 40px;
+    width: 40px;
+    margin: 2px 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctnd-btn-regresar>a{
+    height: 40px;
+    width: 40px;
+}
+
+.ctnd-btn-regresar img{
+    border-radius: 10px;
+}
+
 @media screen and (max-width: 499px){
     div.ctnd-LogoHeader {
     width: 80%;
