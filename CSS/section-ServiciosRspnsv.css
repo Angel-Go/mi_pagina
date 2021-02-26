@@ -1,5 +1,5 @@
 .sect-Servicios{
-    height: 650px;
+    height: 720px;
     background-color: rgb(235, 235, 235);
 }
 
@@ -22,13 +22,13 @@
 }
 
 .ctnd-FraseServicios{
-    height: 12%;
+    height: 16%;
     justify-content: center;
     padding-bottom: 20px;
 }
 
 .ctnd-DifServicios{
-    height: 70%;
+    height: 66%;
     flex-direction: row;
     justify-content: space-between;
 }
@@ -38,15 +38,16 @@
     height: 80%;
     margin: 20px 2px 10px;
     text-align: center;
-    /**/
+    color: rgb(67, 127, 255);
 }
 
-.ctnd-FraseServicios>h3{
-    width: 36%;
-    height: 100%;
+.ctnd-FraseServicios>strong{
+    width: 50%;
+    height: 80%;
     margin: 10px 2px;
-    text-align: center;
-    color: rgb(67, 127, 255);
+    font-size: 1.4em;
+    font-weight: 500;
+    text-align: justify;
 }
 
 /*:::::::::::::::::::::::::::::::::: S E R V I C I O S*/
@@ -109,7 +110,7 @@
     transform: rotateY(180deg);
 }
 
-.flip-card-front>h4{
+.flip-card-front>h3{
     margin: 5px 0px;
     height: 12%;
     font-weight: bold;
@@ -251,20 +252,20 @@
 
 @media screen and (max-width: 499px){
     .sect-Servicios{
-        height: 1250px;
+        height: 1450px;
     }
     .ctnd-Servicios{
         height: 99%;
     }
     /*T I T U L O - y - S U B T I T U L O*/
     .ctnd-TituloServicios{
-        height: 8%;
-    }
-    .ctnd-FraseServicios{
         height: 6%;
     }
+    .ctnd-FraseServicios{
+        height: 14%;
+    }
     .ctnd-DifServicios{
-        height: 86%;
+        height: 78%;
         flex-direction: column;
         justify-content: space-between;
 
@@ -273,9 +274,10 @@
         font-size: 2.2em;
         /**/
     }
-    .ctnd-FraseServicios>h3{
+    .ctnd-FraseServicios>strong{
         width: 90%;
         font-size: 1.2em;
+        text-align: justify;
     }
     /* S E R V I C I O S*/
     .ctnd-FlipCard{
@@ -292,7 +294,7 @@
 
 @media screen and (min-width: 500px) and (max-width: 699px){
     .sect-Servicios{
-        height: 1240px;
+        height: 1380px;
     }
     .ctnd-Servicios{
         height: 99%;
@@ -302,19 +304,20 @@
         height: 8%;
     }
     .ctnd-FraseServicios{
-        height: 7%;
+        height: 10%;
     }
     .ctnd-DifServicios{
-        height: 85%;
+        height: 82%;
         flex-direction: column;
         justify-content: space-between;
     }
     .ctnd-TituloServicios>h2{
         font-size: 2.4em;
     }
-    .ctnd-FraseServicios>h3{
+    .ctnd-FraseServicios>strong{
         width: 75%;
         font-size: 1.2em;
+        text-align: justify;
     }
     /* S E R V I C I O S*/
     .ctnd-FlipCard{
@@ -335,13 +338,15 @@
         height: 16%;
     }
     .ctnd-FraseServicios{
-        height: 8%;
+        height: 20%;
     }
     .ctnd-DifServicios{
-        height: 76%;
+        height: 64%;
     }
-    .ctnd-FraseServicios>h3{
-        width: 55%;
+    .ctnd-FraseServicios>strong{
+        width: 68%;
+        font-size: 1.3em;
+        text-align: justify;
     }
     /* S E R V I C I O S*/
     .flip-card-back>p{
@@ -355,15 +360,15 @@
 
 @media screen and (min-width: 1600px){
     .sect-Servicios{
-        height: 650px;
+        height: 750px;
     }
     /*T I T U L O - y - S U B T I T U L O*/
     .ctnd-TituloServicios>h2{
         font-size: 3.4em;
     }
     .ctnd-FraseServicios>h3{
-        font-size: 1.6em;
-        width: 32%;
+        font-size: 1.5em;
+        width: 50%;
     }
     /* S E R V I C I O S*/
     .flip-card{
