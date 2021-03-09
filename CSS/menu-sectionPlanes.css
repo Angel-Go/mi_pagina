@@ -90,7 +90,7 @@
     background-color: rgb(158, 228, 213);
 }
 
-.descripcionPlan-titulo>h4{
+.descripcionPlan-titulo>h3{
     font-size: 1.4em;
     text-align: center;
 }
@@ -172,7 +172,7 @@ li.medida{
     .opcionPlan-descripcion{
         height: 35%;
     }
-    .descripcionPlan-titulo>h4{
+    .descripcionPlan-titulo>h3{
         font-size: 1.8em;
     }
     .descripcionPlan-descripcion li{
@@ -231,7 +231,7 @@ li.medida{
     .opcionPlan-descripcion{
         height: 35%;
     }
-    .descripcionPlan-titulo>h4{
+    .descripcionPlan-titulo>h3{
         font-size: 1.8em;
     }
     .descripcionPlan-descripcion li{
@@ -291,7 +291,7 @@ li.medida{
     .opcionPlan-descripcion{
         height: 41%;
     }
-    .descripcionPlan-titulo>h4{
+    .descripcionPlan-titulo>h3{
         margin: 10px 5px;
         font-size: 1.8em;
         text-align: left;
@@ -356,7 +356,7 @@ li.medida{
     .opcionPlan-descripcion{
         height: 38%;
     }
-    .descripcionPlan-titulo>h4{
+    .descripcionPlan-titulo>h3{
         margin: 10px 5px;
         font-size: 1.8em;
         text-align: left;
